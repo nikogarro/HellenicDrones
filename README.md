@@ -7,7 +7,7 @@
 
 ## Installation
 Use [miniconda](https://docs.conda.io/en/latest/miniconda.html) 🐍 a free minimal installer for conda 
-(The place in which we will create the environment in which the programs will run).
+(The place where we will create the environment in which the programs will run).
 
 Download the installer [here](https://docs.conda.io/en/latest/miniconda.html#windows-installers) 
 for Windows. 🪟

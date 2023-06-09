@@ -37,7 +37,7 @@ conda config --set solver libmamba
 ```
 💡For more info [here](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community).
 
-### Setting up the environment
+## Setting up the environment
 
 We need to install the necesary dependencys which are requirent, to do this we should be **creating** 
 a new environment by using the following command
@@ -102,7 +102,7 @@ yolo task=detect mode=predict model=path_to_the_downloaded_model show=True sourc
 
 For webcam use ``source=0`` and alternative for any other image or video formats including streaming ``RTSP, RTMP, HTTP`` and all the acceptable arguments see detailed guide [here](https://docs.ultralytics.com/modes/predict/)
 
-📢To stop the real time camera prediction press and hold 'q'.
+📢To stop the real time camera prediction press and hold **``q``**.
 
 
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/ec5eb756-0c1e-4e05-82f4-bc07f6dc0b80)

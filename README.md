@@ -50,6 +50,7 @@ Afterwards we need to **activate** the new env by
 activate yolov8
 ```
 The (base) on the parathesis should now be changed to your new env name for me yolov8.
+
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/82b70a3e-ef3e-463a-a9da-129dfbf5db11)
 
 We can skip all of the above if we are gonna just use this project and follow the bellow steps on the

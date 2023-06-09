@@ -11,8 +11,8 @@ for Windows.
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/fcb49ec5-15a4-4d03-8647-0b50eeb794e8)
 
 
-We will download Python version 3.10 which comes with Conda 23.3.1 Python 3.10.10 
-released on April 24, 2023.
+We will download Python ``version 3.10`` which comes with Conda 23.3.1 Python 3.10.10 
+released on April 24, 2023. 🐍
 
 After the installation is completed we will search and open Anaconda Prompt which is an "enhanced"
 windows cmd which automatically includes the conda installation of Python to your PATH environment variable meaning

@@ -1,12 +1,16 @@
-# HellenicDrones
-Drones Machine Vision Augmentation.
+# **HellenicDrones**
+**Drones Machine Vision Augmentation.**
+
+# **Tutorial for on device Computer Vision inference using yolov8.**
+
+📌Everything is still under development. 🔨
 
 ## Installation
 Use [miniconda](https://docs.conda.io/en/latest/miniconda.html) 🐍 a free minimal installer for conda 
 (The place in which we will create the environment in which the programs will run).
 
 Download the installer [here](https://docs.conda.io/en/latest/miniconda.html#windows-installers) 
-for Windows.
+for Windows. 🪟
 
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/fcb49ec5-15a4-4d03-8647-0b50eeb794e8)
 
@@ -72,7 +76,7 @@ pip install ultralytics
 This gonna a take a while as it is downloading all the necessary packages and their depedencies 
 to train, evaluate, predict and export a yolov8 model. 🔥
 
-📢 This downloads the cpu version of Pytorch if you have a gpu to run the model on you need to go to
+📢 This downloads the CPU 💻 version of Pytorch if you have a GPU ⚡ to run the model on you need to go to
 [Pytorch](https://pytorch.org/get-started/locally/)
 
 and install it with the apropriate cuda version by coping the command.
@@ -96,7 +100,7 @@ Go to https://github.com/nikogarro/HellenicDrones and click on best.pt (this is 
 
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/81d99eaf-ad57-4595-aece-da7f636466d2)
 
-That's it everything is Set up!
+That's it everything is Set up! 📐
 
 ## Usage
 
@@ -105,7 +109,7 @@ On Anaconda Prompt use the following commands while being on the right env (yolo
 yolo task=detect mode=predict model=path_to_the_downloaded_model show=True source=your_image_video_directory line_width=1
 ```
 
-For webcam use ``source=0`` and alternative for any other image or video formats including streaming ``RTSP, RTMP, HTTP`` and all the acceptable arguments see detailed guide [here](https://docs.ultralytics.com/modes/predict/)
+💡 For webcam use ``source=0`` and alternative for any other image or video formats including streaming ``RTSP, RTMP, HTTP`` and all the acceptable arguments see detailed guide [here](https://docs.ultralytics.com/modes/predict/)
 
 📢To stop the real time camera prediction press and hold **``q``**.
 

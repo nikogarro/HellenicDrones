@@ -100,7 +100,7 @@ On Anaconda Prompt use the following commands while being on the right env (yolo
 yolo task=detect mode=predict model=path_to_the_downloaded_model show=True source=your_image_video_directory line_width=1
 ```
 
-For webcam use ``source=0`` and alternative for any other image or video formats including streaming RTSP, RTMP, HTTP and all the acceptable arguments see detailed guide [here](https://docs.ultralytics.com/modes/predict/)
+For webcam use ``source=0`` and alternative for any other image or video formats including streaming ``RTSP, RTMP, HTTP`` and all the acceptable arguments see detailed guide [here](https://docs.ultralytics.com/modes/predict/)
 
 📢To stop the real time camera prediction press and hold 'q'.
 

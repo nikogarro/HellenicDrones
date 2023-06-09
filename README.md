@@ -19,6 +19,8 @@ windows cmd which automatically includes the conda installation of Python to you
 there is no need to set the PYTHONPATH environment variable.
 
 After everything is installed you should see something like this.
+
+
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/2b7302ca-5316-4097-b7f1-a8d178e03f62)
 
 

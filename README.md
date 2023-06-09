@@ -1,5 +1,5 @@
 # HellenicDrones
-Drones Vision Augmentation
+Drones Machine Vision Augmentation.
 
 ## Installation
 Use [miniconda](https://docs.conda.io/en/latest/miniconda.html) 🐍 a free minimal installer for conda 

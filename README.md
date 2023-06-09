@@ -90,6 +90,8 @@ To check if everything has gone smoothly type ``python`` followed by an ``import
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/37f10c0f-d8e9-4caf-86c0-96b43f2608c6)
 
 ## Downloading the pretrained model.
+Click [this](https://github.com/nikogarro/HellenicDrones/raw/main/best.pt) or
+
 Go to https://github.com/nikogarro/HellenicDrones and click on best.pt (this is the default pytorch model) and then download the raw file.
 
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/81d99eaf-ad57-4595-aece-da7f636466d2)

@@ -3,7 +3,7 @@
 
 # **Tutorial for on device Computer Vision inference using yolov8.**
 
-📌Everything is still under development. 🔨
+📌 Hey, Everything is still under development. 🔨
 
 ## Installation
 Use [miniconda](https://docs.conda.io/en/latest/miniconda.html) 🐍 a free minimal installer for conda 

@@ -70,13 +70,25 @@ This gonna a take a while as it is downloading all the necessary packages and th
 to train, evaluate, predict and export a yolov8 model.
 
 📢 This downloads the cpu version of Pytorch if you have a gpu to run the model on you need to go to
-[Pytorch](https://pytorch.org/get-started/locally/) and install it with the apropriate cuda version by coping the command.
+[Pytorch](https://pytorch.org/get-started/locally/)
+
+and install it with the apropriate cuda version by coping the command.
+
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/ce23efe9-93e8-42eb-badd-ddbc36d351f8)
+
 and running it on Anaconda Prompt by putting a ``--upgrade`` in front of torch like this.
+
 ```bash
 pip3 install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
 ```
-To check if everything has gone smoothly type python followed by an import torch 
+
+To check if everything has gone smoothly type ``python`` followed by an ``import torch`` followed by a ``torch.__version__``  and ``torch.cuda_is_available()`` ( if you have a gpu) finally to exit type ``exit()``.
+
+![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/7c323390-63d0-4a62-b647-828c28ec7013)
+
+## Downloading the pretrained model.
+
+
 
 
 

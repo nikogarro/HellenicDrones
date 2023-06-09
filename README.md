@@ -31,8 +31,8 @@ After everything is installed you should see something like this.
 💡 If you run into any issues or need more guidance visit [here](https://conda.io/projects/conda/en/stable/user-guide/install/index.html#installation).
 
 ⚡ To speed up the process of installing new depedencies we will use Libmamba a faster conda solver
-which can yield +50-80% resolving speeds.
-Do this by putting the following commands on Anaconda Prompt.
+which can yield +(50-80)% resolving speeds.
+Do this by running the following commands on Anaconda Prompt:
 ```bash
 conda update -n base conda
 ```
@@ -45,8 +45,8 @@ conda config --set solver libmamba
 
 ## Setting up the environment
 
-We need to install the necesary dependencys which are requirent, to do this we should be **creating** 
-a new environment by using the following command
+We need to install the necesary dependencies which are required, to do this we should be **Creating** 
+a new environment by using the following command:
 ```bash
 conda create --name yolov8 python=3.10
 ```
@@ -59,17 +59,15 @@ The (base) on the parathesis should now be changed to your new env name for me y
 
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/82b70a3e-ef3e-463a-a9da-129dfbf5db11)
 
-We can skip all of the above if we are gonna just use this project and follow the bellow steps on the
-(base) env.
-
-📢 It is not recomended as package issues might occures if future changes or prototyping happens.
+📘 We can skip all of the above if we are gonna just use this project and follow the below steps instead on the
+(base) env. 📢 It is not recomended as package issues might occures if future changes or prototyping happens.
 
 💡 Here is a fast getting started [tutorial](https://docs.conda.io/projects/conda/en/latest/user-guide/getting-started.html)
 and a helpful conda [cheatsheet](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf).
 
 ## Installation of the Project
 
-Now let's start with the fun part start by typing on the activated conda environment in me case (yolov8).
+Now let's start with the fun part start by running on the activated conda environment in my case (yolov8):
 ```bash
 pip install ultralytics
 ```
@@ -83,7 +81,7 @@ and install it with the apropriate cuda version by coping the command.
 
 ![εικόνα](https://github.com/nikogarro/HellenicDrones/assets/117863158/60b1d1c0-10d7-4e15-95db-f988d062aabc)
 
-and running it on Anaconda Prompt by putting a ``--upgrade`` in front of torch like this.
+and running it on Anaconda Prompt by putting a ``--upgrade`` in front of torch like this:
 
 ```bash
 pip3 install --upgrade torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu117
@@ -106,7 +104,7 @@ That's it everything is Set up! 📐
 
 On Anaconda Prompt use the following commands while being on the right env (yolov8) for inference. 🔥
 ```bash
-yolo task=detect mode=predict model=path_to_the_downloaded_model show=True source=your_image_video_directory line_width=1
+yolo task=detect mode=predict model=path_to_the_downloaded_model show=True source=your_image_or_video_directory line_width=1
 ```
 
 💡 For webcam use ``source=0`` and alternative for any other image or video formats including streaming ``RTSP, RTMP, HTTP`` and all the acceptable arguments see detailed guide [here](https://docs.ultralytics.com/modes/predict/)
